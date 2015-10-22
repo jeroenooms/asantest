@@ -1,2 +1,7 @@
 PKG_CXXFLAGS=-fsanitize=address
+
+# Link ASAN on OS-X
 PKG_LIBS=-fsanitize=address
+
+# Link ASAN on Linux
+#PKG_LIBS=-lasan
